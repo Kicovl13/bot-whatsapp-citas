@@ -18,6 +18,9 @@
     "url": "https://github.com/Kicovl13/bot-whatsapp-citas/issues"
   },
   "homepage": "https://github.com/Kicovl13/bot-whatsapp-citas#readme",
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.18",
     "dotenv": "^16.5.0"
