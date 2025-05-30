@@ -1,9 +1,9 @@
-import dotenv from "dotenv";
+const dotenv = require('dotenv');
 dotenv.config();
 
-import makeWASocket, { useMultiFileAuthState } from "@whiskeysockets/baileys";
-import { Boom } from "@hapi/boom";
-import * as fs from "fs";
+const { makeWASocket, useMultiFileAuthState } = require('@whiskeysockets/baileys');
+const { Boom } = require('@hapi/boom');
+const fs = require('fs');
 
 const sessions = {}; // Memoria temporal para seguimiento de usuarios
 
