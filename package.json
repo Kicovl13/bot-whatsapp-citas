@@ -23,6 +23,9 @@
   },
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.18",
-    "dotenv": "^16.5.0"
+    "chrono-node": "^2.7.4",
+    "dotenv": "^16.5.0",
+    "googleapis": "^149.0.0",
+    "qrcode-terminal": "^0.12.0"
   }
 }

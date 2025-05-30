@@ -8,7 +8,7 @@ const qrcode = require("qrcode-terminal");
 const chrono = require("chrono-node");
 
 // CONFIGURA ESTO 👇
-const NUMERO_ADMIN = "521XXXXXXXXXX@s.whatsapp.net"; // Tu número de admin
+const NUMERO_ADMIN = "5213320268920@s.whatsapp.net"; // Tu número de admin
 const dias = ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"];
 const horas = [
   "09:00", "10:00", "11:00", "12:00", "13:00", "14:00", "15:00", "16:00",
@@ -17,7 +17,9 @@ const horas = [
 const SHEET_ID = process.env.GOOGLE_SHEET_ID;
 const CALENDAR_ID = process.env.GOOGLE_CALENDAR_ID;
 const TIMEZONE = process.env.TIMEZONE || "America/Mexico_City";
+//const CREDENTIALS = require("./bot-whatsapp-citas-2a3e5adde9c9.json");
 const CREDENTIALS = JSON.parse(process.env.GOOGLE_SERVICE_ACCOUNT_JSON);
+
 
 const auth = new google.auth.GoogleAuth({
   credentials: CREDENTIALS,
